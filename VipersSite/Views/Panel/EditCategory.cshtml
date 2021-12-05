@@ -1,0 +1,31 @@
+﻿@model Category
+
+@{
+    ViewBag.Title = "Админка — Создать или изменить подкатегорию";
+}
+@await Component.InvokeAsync("AdminPanel")
+
+<div class="row text-center header animate-in" data-anim-type="fade-in-up">
+    <h3 style="margin-top: 20px">Подкатегории</h3>
+</div>
+
+<div class="admineditwindow">
+    <form asp-controller="Panel" asp-action="EditCategory" method="post">
+        <input asp-for="Id" type="hidden" />
+        <!--<div>
+            <label>Вид товара</label>
+            <select asp-for="Relative">
+                <option value="Браслеты">Браслеты</option>
+                <option value="Кольца">Кольца</option>
+                <option value="Серьги">Серьги</option>
+                <option value="Цепи">Цепи</option>
+            </select>
+        </div>-->
+        <div>
+            <label>Название категории</label>
+            <input asp-for="Name" />
+        </div>
+
+        <input type="submit" value="Отправить" />
+    </form>
+</div>

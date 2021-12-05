@@ -1,4 +1,4 @@
-﻿@model BraceletViewModel
+﻿@model JewelryViewModel
 
 @{
     ViewBag.Title = "Браслеты — Ювелирный каталог";
@@ -11,33 +11,39 @@
 </div>
 <div class="wrapper-category">
     <div class="container categories scroll">
-        @await Component.InvokeAsync("ShowBraceletCategory")
+        <div>
+            <a asp-controller="Bracelets" asp-action="Index">Все браслеты</a>
+            @await Component.InvokeAsync("ShowCategory")
+        </div>
     </div>
 </div>
 <div class="wrapper">
-    @foreach (var bracelet in Model.Bracelets)
+    @foreach (var jewelry in Model.Jewelries)
     {
-    <div id="one" asp-controller="Home" asp-action="Bracelets" asp-rout-id="@bracelet.Id">
-        @{
-            string status = bracelet.Availability;
-            string color = "lightblue";
-            string colorDescription = "white";
-            string wordStatus = "В наличии";
-            if (status == "Нет в наличии")
-            {
-                color = "#CDCDCD";
-                colorDescription = "#CDCDCD";
-                wordStatus = "Нет в наличии";
-            }
+        @if (@jewelry.Branch == "Браслеты")
+        {
+            <div id="one" asp-controller="Home" asp-action="Jewelries" asp-rout-id="@jewelry.Id">
+                @{
+                    string status = jewelry.Availability;
+                    string color = "lightblue";
+                    string colorDescription = "white";
+                    string wordStatus = "В наличии";
+                    if (status == "Нет в наличии")
+                    {
+                        color = "#CDCDCD";
+                        colorDescription = "#CDCDCD";
+                        wordStatus = "Нет в наличии";
+                    }
+                }
+                <p style="color:@color">@wordStatus</p>
+                <p>
+                    <a asp-controller="Bracelets" asp-action="Jewelry" asp-route-id="@jewelry.Id" style="color:@colorDescription">
+                        @Html.Raw(jewelry.Name)
+                        <br>
+                        Цена: @jewelry.Price рублей
+                    </a>
+                </p>
+            </div>
         }
-        <p style="color:@color">@wordStatus</p>
-        <p>
-            <a asp-controller="Bracelets" asp-action="Bracelet" asp-route-id="@bracelet.Id" style="color:@colorDescription">
-                @Html.Raw(bracelet.Name)
-                <br>
-                Цена: @bracelet.Price рублей
-            </a>
-        </p>
-    </div>
     }
 </div>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danic\\Desktop\\Курсовые 2020-2021\\Мои\\АИС Ювелирный салон\\Окончательное\\Исходная работа\\VipersSite\\VipersSite.csproj": {}
+    "C:\\Users\\danic\\Downloads\\Telegram Desktop\\Миниахметов_ДР_ПриС-301(инд)\\Исходная работа\\VipersSite\\VipersSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danic\\Desktop\\Курсовые 2020-2021\\Мои\\АИС Ювелирный салон\\Окончательное\\Исходная работа\\VipersSite\\VipersSite.csproj": {
+    "C:\\Users\\danic\\Downloads\\Telegram Desktop\\Миниахметов_ДР_ПриС-301(инд)\\Исходная работа\\VipersSite\\VipersSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danic\\Desktop\\Курсовые 2020-2021\\Мои\\АИС Ювелирный салон\\Окончательное\\Исходная работа\\VipersSite\\VipersSite.csproj",
+        "projectUniqueName": "C:\\Users\\danic\\Downloads\\Telegram Desktop\\Миниахметов_ДР_ПриС-301(инд)\\Исходная работа\\VipersSite\\VipersSite.csproj",
         "projectName": "VipersSite",
-        "projectPath": "C:\\Users\\danic\\Desktop\\Курсовые 2020-2021\\Мои\\АИС Ювелирный салон\\Окончательное\\Исходная работа\\VipersSite\\VipersSite.csproj",
+        "projectPath": "C:\\Users\\danic\\Downloads\\Telegram Desktop\\Миниахметов_ДР_ПриС-301(инд)\\Исходная работа\\VipersSite\\VipersSite.csproj",
         "packagesPath": "C:\\Users\\danic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danic\\Desktop\\Курсовые 2020-2021\\Мои\\АИС Ювелирный салон\\Окончательное\\Исходная работа\\VipersSite\\obj\\",
+        "outputPath": "C:\\Users\\danic\\Downloads\\Telegram Desktop\\Миниахметов_ДР_ПриС-301(инд)\\Исходная работа\\VipersSite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

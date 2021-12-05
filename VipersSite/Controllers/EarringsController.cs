@@ -18,14 +18,14 @@ namespace VipersSite.Controllers
 
         public IActionResult Index(string category)
         {
-            var vm = _repo.GetAllEarrings(category);
+            var vm = _repo.GetAllJewelries(category);
             return View(vm);
         }
 
-        public IActionResult Earring(int id)
+        public IActionResult Jewelry(int id)
         {
-            var earring = _repo.GetEarring(id);
-            return View(earring);
+            var jewelry = _repo.GetJewelry(id);
+            return View(jewelry);
         }
     }
 }

@@ -116,351 +116,91 @@ namespace VipersSite.Controllers
             return RedirectToAction("Feedbacks");
         }
 
-        // Управление "Браслеты"
+        // Ювелирные украшения
 
-        public IActionResult Bracelets()
+        public IActionResult Jewelries()
         {
-            var bracelets = _repo.GetAllBracelets();
-            return View(bracelets);
+            var jewelries = _repo.GetAllJewelries();
+            return View(jewelries);
         }
 
         [HttpGet]
-        public IActionResult EditBracelet(int? id)
+        public IActionResult EditJewelry(int? id)
         {
-            var categories = _repo.GetAllBraceletCategories();
-            ViewBag.Bracelets = new SelectList(categories, "Name", "Name");
+            var categories = _repo.GetAllCategories();
+            ViewBag.Jewelries = new SelectList(categories, "Name", "Name");
             if (id == null)
-                return View(new Bracelet());
+                return View(new Jewelry());
             else
             {
-                var bracelet = _repo.GetBracelet((int)id);
-                return View(bracelet);
+                var jewelry = _repo.GetJewelry((int)id);
+                return View(jewelry);
             }
         }
 
         [HttpPost]
-        public async Task<IActionResult> EditBracelet(Bracelet bracelet)
+        public async Task<IActionResult> EditJewelry(Jewelry jewelry)
         {
-            if (bracelet.Id == 0)
+            if (jewelry.Id == 0)
             {
-                _repo.AddBracelet(bracelet);
+                _repo.AddJewelry(jewelry);
             }
             else
-                _repo.UpdateBracelet(bracelet);
+                _repo.UpdateJewelry(jewelry);
             if (await _repo.SaveChangesAsync())
-                return RedirectToAction("Bracelets");
+                return RedirectToAction("Jewelries");
             else
-                return View(bracelet);
+                return View(jewelry);
         }
 
         [HttpGet]
-        public async Task<IActionResult> RemoveBracelet(int id)
+        public async Task<IActionResult> RemoveJewelry(int id)
         {
-            _repo.RemoveBracelet(id);
+            _repo.RemoveJewelry(id);
             await _repo.SaveChangesAsync();
-            return RedirectToAction("Bracelets");
+            return RedirectToAction("Jewelries");
         }
 
-        // Управление "Категория браслетов"
+        // Управление "Категории"
 
-        public IActionResult BraceletCategories()
+        public IActionResult Categories()
         {
-            var braceletCategories = _repo.GetAllBraceletCategories();
-            return View(braceletCategories);
+            var categories = _repo.GetAllCategories();
+            return View(categories);
         }
 
         [HttpGet]
-        public IActionResult EditBraceletCategory(int? id)
+        public IActionResult EditCategory(int? id)
         {
             if (id == null)
-                return View(new BraceletCategory());
+                return View(new Category());
             else
             {
-                var braceletCategory = _repo.GetBraceletCategory((int)id);
-                return View(braceletCategory);
+                var category = _repo.GetCategory((int)id);
+                return View(category);
             }
         }
 
         [HttpPost]
-        public async Task<IActionResult> EditBraceletCategory(BraceletCategory braceletCategory)
+        public async Task<IActionResult> EditCategory(Category category)
         {
-            if (braceletCategory.Id == 0)
-                _repo.AddBraceletCategory(braceletCategory);
+            if (category.Id == 0)
+                _repo.AddCategory(category);
             else
-                _repo.UpdateBraceletCategory(braceletCategory);
+                _repo.UpdateCategory(category);
             if (await _repo.SaveChangesAsync())
-                return RedirectToAction("BraceletCategories");
+                return RedirectToAction("Categories");
             else
-                return View(braceletCategory);
+                return View(category);
         }
 
         [HttpGet]
-        public async Task<IActionResult> RemoveBraceletCategory(int id)
+        public async Task<IActionResult> RemoveCategory(int id)
         {
-            _repo.RemoveBraceletCategory(id);
+            _repo.RemoveCategory(id);
             await _repo.SaveChangesAsync();
-            return RedirectToAction("BraceletCategories");
+            return RedirectToAction("Categories");
         }
 
-        // Управление "Цепи" 
-
-        public IActionResult Chains()
-        {
-            var chains = _repo.GetAllChains();
-            return View(chains);
-        }
-
-        [HttpGet]
-        public IActionResult EditChain(int? id)
-        {
-            var categories = _repo.GetAllChainCategories();
-            ViewBag.Chains = new SelectList(categories, "Name", "Name");
-            if (id == null)
-                return View(new Chain());
-            else
-            {
-                var сhain = _repo.GetChain((int)id);
-                return View(сhain);
-            }
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> EditChain(Chain chain)
-        {
-            if (chain.Id == 0)
-            {
-                _repo.AddChain(chain);
-            }
-            else
-                _repo.UpdateChain(chain);
-            if (await _repo.SaveChangesAsync())
-                return RedirectToAction("Chains");
-            else
-                return View(chain);
-        }
-
-        [HttpGet]
-        public async Task<IActionResult> RemoveChain(int id)
-        {
-            _repo.RemoveChain(id);
-            await _repo.SaveChangesAsync();
-            return RedirectToAction("Chains");
-        }
-
-        // Управление "Категория серьг"
-
-        public IActionResult ChainCategories()
-        {
-            var chainCategories = _repo.GetAllChainCategories();
-            return View(chainCategories);
-        }
-
-        [HttpGet]
-        public IActionResult EditChainCategory(int? id)
-        {
-            if (id == null)
-                return View(new ChainCategory());
-            else
-            {
-                var chainCategory = _repo.GetChainCategory((int)id);
-                return View(chainCategory);
-            }
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> EditChainCategory(ChainCategory chainCategory)
-        {
-            if (chainCategory.Id == 0)
-                _repo.AddChainCategory(chainCategory);
-            else
-                _repo.UpdateChainCategory(chainCategory);
-            if (await _repo.SaveChangesAsync())
-                return RedirectToAction("ChainCategories");
-            else
-                return View(chainCategory);
-        }
-
-        [HttpGet]
-        public async Task<IActionResult> RemoveChainCategory(int id)
-        {
-            _repo.RemoveChainCategory(id);
-            await _repo.SaveChangesAsync();
-            return RedirectToAction("ChainCategories");
-        }
-
-        // Управление "Серьги"
-
-        public IActionResult Earrings()
-        {
-            var earrings = _repo.GetAllEarrings();
-            return View(earrings);
-        }
-
-        [HttpGet]
-        public IActionResult EditEarring(int? id)
-        {
-            var categories = _repo.GetAllEarringCategories();
-            ViewBag.Earrings = new SelectList(categories, "Name", "Name");
-            if (id == null)
-                return View(new Earring());
-            else
-            {
-                var earring = _repo.GetEarring((int)id);
-                return View(earring);
-            }
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> EditEarring(Earring earring)
-        {
-            if (earring.Id == 0)
-            {
-                _repo.AddEarring(earring);
-            }
-            else
-                _repo.UpdateEarring(earring);
-            if (await _repo.SaveChangesAsync())
-                return RedirectToAction("Earrings");
-            else
-                return View(earring);
-        }
-
-        [HttpGet]
-        public async Task<IActionResult> RemoveEarring(int id)
-        {
-            _repo.RemoveEarring(id);
-            await _repo.SaveChangesAsync();
-            return RedirectToAction("Earrings");
-        }
-
-        // Управление "Категории серьг"
-
-        public IActionResult EarringCategories()
-        {
-            var earringCategories = _repo.GetAllEarringCategories();
-            return View(earringCategories);
-        }
-
-        [HttpGet]
-        public IActionResult EditEarringCategory(int? id)
-        {
-            if (id == null)
-                return View(new EarringCategory());
-            else
-            {
-                var earringCategory = _repo.GetEarringCategory((int)id);
-                return View(earringCategory);
-            }
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> EditEarringCategory(EarringCategory earringCategory)
-        {
-            if (earringCategory.Id == 0)
-                _repo.AddEarringCategory(earringCategory);
-            else
-                _repo.UpdateEarringCategory(earringCategory);
-            if (await _repo.SaveChangesAsync())
-                return RedirectToAction("EarringCategories");
-            else
-                return View(earringCategory);
-        }
-
-        [HttpGet]
-        public async Task<IActionResult> RemoveEarringCategory(int id)
-        {
-            _repo.RemoveEarringCategory(id);
-            await _repo.SaveChangesAsync();
-            return RedirectToAction("EarringCategories");
-        }
-
-        // Управление "Кольца"
-
-        public IActionResult Rings()
-        {
-            var rings = _repo.GetAllRings();
-            return View(rings);
-        }
-
-
-        [HttpGet]
-        public IActionResult EditRing(int? id)
-        {
-            var categories = _repo.GetAllRingCategories();
-            ViewBag.Rings = new SelectList(categories, "Name", "Name");
-            if (id == null)
-                return View(new Ring());
-            else
-            {
-                var ring = _repo.GetRing((int)id);
-                return View(ring);
-            }
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> EditRing(Ring ring)
-        {
-            if (ring.Id == 0)
-            {
-                _repo.AddRing(ring);
-            }
-            else
-                _repo.UpdateRing(ring);
-            if (await _repo.SaveChangesAsync())
-                return RedirectToAction("Rings");
-            else
-                return View(ring);
-        }
-
-        [HttpGet]
-        public async Task<IActionResult> RemoveRing(int id)
-        {
-            _repo.RemoveRing(id);
-            await _repo.SaveChangesAsync();
-            return RedirectToAction("Rings");
-        }
-
-        // Управление "Категории колец"
-
-        public IActionResult RingCategories()
-        {
-            var ringCategories = _repo.GetAllRingCategories();
-            return View(ringCategories);
-        }
-
-        [HttpGet]
-        public IActionResult EditRingCategory(int? id)
-        {
-            if (id == null)
-                return View(new RingCategory());
-            else
-            {
-                var ringCategory = _repo.GetRingCategory((int)id);
-                return View(ringCategory);
-            }
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> EditRingCategory(RingCategory ringCategory)
-        {
-            if (ringCategory.Id == 0)
-                _repo.AddRingCategory(ringCategory);
-            else
-                _repo.UpdateRingCategory(ringCategory);
-            if (await _repo.SaveChangesAsync())
-                return RedirectToAction("RingCategories");
-            else
-                return View(ringCategory);
-        }
-
-        [HttpGet]
-        public async Task<IActionResult> RemoveRingCategory(int id)
-        {
-            _repo.RemoveRingCategory(id);
-            await _repo.SaveChangesAsync();
-            return RedirectToAction("RingCategories");
-        }
-
-        
     }
 }

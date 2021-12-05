@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Category>
+
+@{
+    ViewBag.Title = "Админка — Категории";
+}
+
+@await Component.InvokeAsync("AdminPanel")
+
+<div class="adminbutton">
+    <a asp-controller="Panel" asp-action="EditCategory">Создать категорию</a>
+</div>
+
+<div class="row text-center header animate-in" data-anim-type="fade-in-up">
+    <h3 style="margin-top: 20px">Категории</h3>
+</div>
+
+<div style="overflow-x:auto;">
+    <table>
+        @foreach (var category in Model)
+        {
+        <tr>
+            <th>@category.Name</th>
+            <th><a asp-controller="Panel" asp-action="EditCategory" asp-route-id="@category.Id">Изменить</a></th>
+            <th><a asp-controller="Panel" asp-action="RemoveCategory" asp-route-id="@category.Id">Удалить</a></th>
+        </tr>
+        }
+    </table>
+</div>

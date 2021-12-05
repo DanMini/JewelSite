@@ -18,13 +18,7 @@ namespace VipersSite.Data
         }
         public DbSet<Abo> About { get; set; }
         public DbSet<Feedback> Feedbacks { get; set; }
-        public DbSet<BraceletCategory> BraceletCategories { get; set; }
-        public DbSet<ChainCategory> ChainCategories { get; set; }
-        public DbSet<EarringCategory> EarringCategories { get; set; }
-        public DbSet<RingCategory> RingCategories { get; set; }
-        public DbSet<Bracelet> Bracelets { get; set; }
-        public DbSet<Chain> Chains { get; set; }
-        public DbSet<Earring> Earrings { get; set; }
-        public DbSet<Ring> Rings { get; set; }   
+        public DbSet<Jewelry> Jewelries { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }

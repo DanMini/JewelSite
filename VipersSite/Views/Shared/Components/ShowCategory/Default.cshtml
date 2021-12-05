@@ -1,0 +1,8 @@
+﻿@model IEnumerable<Category>
+
+@foreach (var category in Model)
+{
+    <a href="?category=@category.Name">
+        @Html.Raw(category.Name)
+    </a>
+}

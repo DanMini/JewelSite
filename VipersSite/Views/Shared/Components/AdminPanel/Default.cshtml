@@ -1,33 +1,24 @@
 ﻿<div class="row text-center header animate-in" data-anim-type="fade-in-up">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <h3 style="font-weight:600; color:white;">
-            <a asp-controller="Panel" asp-action="Index">АДМИН-ПАНЕЛЬ</a>
+            <a asp-controller="Panel" asp-action="Index">АДМИНИСТРАТИВНАЯ ПАНЕЛЬ</a>
         </h3>
     </div>
 </div>
 
 <div class="topnav" id="myTopnav">
-    <a asp-controller="Panel" asp-action="Bracelets">Браслеты</a>
-    <a asp-controller="Panel" asp-action="Rings">Кольца</a>
-    <a asp-controller="Panel" asp-action="Earrings">Серьги</a>
-    <a asp-controller="Panel" asp-action="Chains">Цепочки</a>
+    <a asp-controller="Panel" asp-action="Jewelries">Товары</a>
+    <a asp-controller="Panel" asp-action="Categories">Категории</a>
     <a asp-controller="Panel" asp-action="AboutEdit/1">О нас</a>
     <a asp-controller="Panel" asp-action="Feedbacks">Обратная связь</a>
     @if (User.Identity.IsAuthenticated)
     {
-        <a asp-controller="Auth" asp-action="Logout">Выйти из админки</a>
+        <a asp-controller="Auth" asp-action="Logout">Выйти из панели</a>
     }
     else
     {
-        <a asp-controller="Auth" asp-action="Login">Зайти в админку</a>
+        <a asp-controller="Auth" asp-action="Login">Зайти в панель</a>
     }
-</div>
-<div class="topnav" id="myTopnav">
-    <h5 style="color:white">Категории:</h5>
-    <a asp-controller="Panel" asp-action="BraceletCategories">Браслеты</a>
-    <a asp-controller="Panel" asp-action="RingCategories">Кольца</a>
-    <a asp-controller="Panel" asp-action="EarringCategories">Серьги</a>
-    <a asp-controller="Panel" asp-action="ChainCategories">Цепочки</a>
 </div>
 
 

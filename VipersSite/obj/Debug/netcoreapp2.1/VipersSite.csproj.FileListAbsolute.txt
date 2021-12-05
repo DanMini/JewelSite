@@ -1,195 +1,39 @@
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\appsettings.json
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.deps.json
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.runtimeconfig.json
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.runtimeconfig.dev.json
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.dll
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.pdb
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.Views.dll
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.Views.pdb
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.csprojAssemblyReference.cache
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorAssemblyInfo.cache
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorAssemblyInfo.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.AssemblyInfoInputs.cache
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.AssemblyInfo.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.TagHelpers.input.cache
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.TagHelpers.output.cache
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorCoreGenerate.cache
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\About\Index.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Auth\Login.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Bracelets\Bracelet.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Bracelets\Index.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Chains\Chain.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Chains\Index.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Earrings\Earring.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Earrings\Index.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Feedbacks\EditFeedback.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Feedbacks\Message.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\About.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\AboutEdit.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\BraceletCategories.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Bracelets.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\ChainCategories.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Chains.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EarringCategories.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Earrings.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditBracelet.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditBraceletCategory.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditChain.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditChainCategory.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditEarring.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditEarringCategory.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditFeedback.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditRing.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditRingCategory.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Feedbacks.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Index.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\RingCategories.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Rings.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Rings\Index.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Rings\Ring.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\AdminPanel\Default.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ShowBraceletCategory\Default.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ShowChainCategory\Default.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ShowEarringCategory\Default.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ShowRingCategory\Default.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\_ViewImports.cshtml.g.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorTargetAssemblyInfo.cache
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorTargetAssemblyInfo.cs
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.Views.pdb
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.dll
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.pdb
-C:\Users\danic\Desktop\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.csproj.CopyComplete
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\appsettings.json
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.deps.json
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.runtimeconfig.json
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.runtimeconfig.dev.json
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.dll
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.pdb
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.Views.dll
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.Views.pdb
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.csprojAssemblyReference.cache
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorAssemblyInfo.cache
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorAssemblyInfo.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.AssemblyInfoInputs.cache
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.AssemblyInfo.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.TagHelpers.input.cache
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.TagHelpers.output.cache
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorCoreGenerate.cache
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\About\Index.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Auth\Login.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Bracelets\Bracelet.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Bracelets\Index.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Chains\Chain.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Chains\Index.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Earrings\Earring.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Earrings\Index.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Feedbacks\EditFeedback.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Feedbacks\Message.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\About.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\AboutEdit.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\BraceletCategories.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Bracelets.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\ChainCategories.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Chains.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EarringCategories.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Earrings.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditBracelet.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditBraceletCategory.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditChain.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditChainCategory.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditEarring.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditEarringCategory.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditFeedback.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditRing.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditRingCategory.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Feedbacks.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Index.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\RingCategories.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Rings.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Rings\Index.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Rings\Ring.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\AdminPanel\Default.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ShowBraceletCategory\Default.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ShowChainCategory\Default.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ShowEarringCategory\Default.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ShowRingCategory\Default.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\_ViewImports.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorTargetAssemblyInfo.cache
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorTargetAssemblyInfo.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.Views.pdb
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.dll
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.pdb
-C:\Users\danic\Desktop\Курсовые 2020-2021\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.csproj.CopyComplete
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.deps.json
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.runtimeconfig.json
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.runtimeconfig.dev.json
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.dll
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.pdb
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.Views.dll
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\VipersSite.Views.pdb
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.csprojAssemblyReference.cache
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorAssemblyInfo.cache
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorAssemblyInfo.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.AssemblyInfoInputs.cache
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.AssemblyInfo.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.TagHelpers.input.cache
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.TagHelpers.output.cache
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorCoreGenerate.cache
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorTargetAssemblyInfo.cache
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorTargetAssemblyInfo.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.Views.pdb
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.dll
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.pdb
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.csproj.CopyComplete
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\appsettings.json
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\About\Index.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Auth\Login.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Bracelets\Bracelet.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Bracelets\Index.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Chains\Chain.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Chains\Index.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Earrings\Earring.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Earrings\Index.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Feedbacks\EditFeedback.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Feedbacks\Message.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\About.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\AboutEdit.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\BraceletCategories.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Bracelets.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\ChainCategories.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Chains.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EarringCategories.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Earrings.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditBracelet.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditBraceletCategory.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditChain.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditChainCategory.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditEarring.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditEarringCategory.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditFeedback.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditRing.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditRingCategory.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Feedbacks.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Index.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\RingCategories.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Rings.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Rings\Index.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Rings\Ring.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\AdminPanel\Default.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ShowBraceletCategory\Default.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ShowChainCategory\Default.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ShowEarringCategory\Default.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ShowRingCategory\Default.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\danic\Desktop\Курсовые 2020-2021\Мои\АИС Ювелирный салон\Окончательное\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\_ViewImports.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.csprojAssemblyReference.cache
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorAssemblyInfo.cache
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorAssemblyInfo.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.AssemblyInfoInputs.cache
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.AssemblyInfo.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.TagHelpers.input.cache
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.TagHelpers.output.cache
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorCoreGenerate.cache
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Auth\Login.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Bracelets\Index.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Bracelets\Jewelry.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Chains\Index.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Chains\Jewelry.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Earrings\Index.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Earrings\Jewelry.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Feedbacks\EditFeedback.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Feedbacks\Message.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\About.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\AboutEdit.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Categories.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditCategory.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditFeedback.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\EditJewelry.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Feedbacks.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Index.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Jewelries.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Rings\Index.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Rings\Jewelry.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\AdminPanel\Default.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ShowCategory\Default.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\Razor\_ViewImports.cshtml.g.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorTargetAssemblyInfo.cache
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.RazorTargetAssemblyInfo.cs
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.dll
+C:\Users\danic\Downloads\Telegram Desktop\Миниахметов_ДР_ПриС-301(инд)\Исходная работа\VipersSite\obj\Debug\netcoreapp2.1\VipersSite.pdb
