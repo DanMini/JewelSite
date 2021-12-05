@@ -1,0 +1,43 @@
+﻿@model ChainViewModel
+
+@{
+    ViewBag.Title = "Цепи — Ювелирный каталог";
+}
+
+<div class="row text-center header animate-in" data-anim-type="fade-in-up">
+    <div class="head-title col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h3>Цепочки</h3>
+    </div>
+</div>
+<div class="wrapper-category">
+    <div class="container categories scroll">
+        @await Component.InvokeAsync("ShowChainCategory")
+    </div>
+</div>
+<div class="wrapper">
+    @foreach (var chain in Model.Chains)
+    {
+    <div id="one" asp-controller="Home" asp-action="Chains" asp-rout-id="@chain.Id">
+        @{
+            string status = chain.Availability;
+            string color = "lightblue";
+            string colorDescription = "white";
+            string wordStatus = "В наличии";
+            if (status == "Нет в наличии")
+            {
+                color = "#CDCDCD";
+                colorDescription = "#CDCDCD";
+                wordStatus = "Нет в наличии";
+            }
+        }
+        <p style="color:@color">@wordStatus</p>
+        <p>
+            <a asp-controller="Chains" asp-action="Chain" asp-route-id="@chain.Id" style="color:@colorDescription">
+                @Html.Raw(chain.Name)
+                <br>
+                Цена: @chain.Price рублей
+            </a>
+        </p>
+    </div>
+    }
+</div>

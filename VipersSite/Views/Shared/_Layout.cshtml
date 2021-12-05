@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="~/css/bootstrap.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="~/css/logo/browserlogo.jpg" />
+    <script src="~/js/jquery-1.11.1.js"></script>
+    <script src="~/js/bootstrap.js"></script>
+    <script src="~/js/share.js"></script>
+</head>
+<body>
+    <div class="maincontent">
+        <picture>
+            <source type="image/webp" srcset="~/css/logo/logo.webp" class="logo">
+            <source type="image/png" srcset="~/css/logo/logo.png" class="logo">
+            <img src="~/css/logo/logo.png" class="logo" id="mug" alt="Logo">
+        </picture>
+        <div class="navbar navbar-inverse scroll-me menu-showing" id="menu-section">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="menu" id="newshover" asp-controller="Home" asp-action="Index">
+                    <picture>
+                        <source type="image/webp" srcset="~/css/logo/logo.webp">
+                        <source type="image/png" srcset="~/css/logo/logo.png">
+                        <img class="logomobile"  src="~/css/logo/logo.png" alt="Logomobile">
+                    </picture>
+                </a>
+                <div class="LinkToHome"></div>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a class="menu" asp-controller="Home" asp-action="Index">Главная</a></li>
+                    <li><a class="menu" asp-controller="Bracelets" asp-action="Index">Браслеты</a></li>
+                    <li><a class="menu" asp-controller="Rings" asp-action="Index">Кольца</a></li>
+                    <li><a class="menu" asp-controller="Earrings" asp-action="Index">Серьги</a></li>
+                    <li><a class="menu" asp-controller="Chains" asp-action="Index">Цепи</a></li>
+                    <li><a class="menu" asp-controller="About" asp-action="Index">О нас</a></li>
+                    <li><a class="menu" asp-controller="Feedbacks" asp-action="EditFeedback">Связаться</a></li>
+                </ul>
+            </div>
+        </div>
+        @RenderBody()
+        @RenderSection("scripts", false)
+    </div>
+    <footer>
+        <p>© 2021 ООО Королевская кобра</p>
+        <a href="https://vk.com/"><img src="~/css/vk.png" alt="vk"/></a>
+        <a href="https://www.youtube.com/"><img src="~/css/youtube.png" alt="youtube"/></a>
+</footer> 
+<!--    <div id="bg">
+    </div> --> 
+</body>
+</html>
+

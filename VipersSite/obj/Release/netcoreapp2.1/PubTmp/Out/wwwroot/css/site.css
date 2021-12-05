@@ -1,0 +1,581 @@
+﻿@font-face {
+    font-family: 'russoone-regular';
+    src: url('fonts/russoone-regular.ttf') format('truetype');
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'russoone-regular';
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+    font-family: 'russoone-regular';
+}
+
+.head-title h3 {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'russoone-regular';
+    font-weight: 100;
+}
+
+.col-lg-12 h3 {
+    margin-top: 1px;
+}
+
+/* логотип - начало */
+
+@media (max-width: 767px) {
+    .logo {
+        display: none;
+    }
+
+    .logomobile {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+    }
+
+    #menu-section a {
+        width: 60%;
+        margin: 20px 40px;
+        font-family: 'russoone-regular';
+    }
+}
+
+@media (min-width: 768px) {
+    .logo {
+        width: 210px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        float: left;
+    }
+
+    .logomobile {
+        display: none;
+    }
+
+    #mug {
+        margin: 30px 20px;
+        z-index: 102;
+    }
+}
+
+@media (min-width: 1125px) {
+    .logo {
+        width: 280px;
+    }
+
+    #mug {
+        margin: 30px 30px;
+        z-index: 102;
+    }
+}
+
+/* логотип - конец */
+/* меню и название раздела - начало */
+
+@media (min-width: 768px) {
+    .navbar {
+        padding-top: 30px;
+    }
+}
+
+.navbar {
+    font-family: 'russoone-regular';
+    text-transform: uppercase;
+    float: left;
+    z-index: 102; /* newnow */
+}
+
+#menu-section a:hover {
+    color: lightgray;
+    transition: 0.5s;
+}
+
+@media (max-width: 767px) {
+    .navbar a {
+        text-decoration: none;
+        display: block;
+        font-size: 17px;
+        padding: 0 0 10px 20px;
+        letter-spacing: 2px;
+        color: white;
+    }
+
+    .navbar-collapse {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1124px) {
+    .navbar a {
+        font-size: 9px;
+        padding: 5px 0;
+        color: #FFF;
+        margin: -5px 1px 10px 1px;
+    }
+
+    .navbar-collapse {
+        margin: auto;
+    }
+}
+
+@media (min-width: 1125px) {
+    .navbar a {
+        font-size: 12px;
+        padding: 5px 0;
+        letter-spacing: 2px;
+        color: #FFF;
+        margin: 5px 5px 10px 10px;
+    }
+
+    .navbar-collapse {
+        margin: auto;
+    }
+}
+
+.navbar-inverse .navbar-toggle {
+    margin-top: 5%;
+}
+
+.row {
+    z-index: 101; /*newnow*/
+    position: relative; /*newnow*/
+}
+
+/* меню и название раздела - конец */
+/* основа страницы - начало */
+
+.maincontent {
+    flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    z-index: 100;
+    /*
+    background: #DBA600;*/
+    background: white;
+}
+
+footer {
+    flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    z-index: 100;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    font-weight: bold;
+    padding: 20px 1px 1px 1px;
+    text-align: center;
+}
+
+@media (min-width: 550px) {
+
+    footer {
+        padding: 1px 20px 1px 20px;
+    }
+    
+    footer img {
+        height: 50px;
+        width: 50px;
+        float: right;
+    }
+    
+    footer p {
+        float: left;
+        padding-top: 15px;
+    }
+}
+
+/* основа страницы - конец */
+/* категории - начало */
+
+@media (max-width: 495px) {
+    div.scroll {
+        overflow: auto;
+        white-space: nowrap;
+    }
+    
+    div.scroll a {
+        display: inline-block;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        font-family: 'russoone-regular';
+        color: white;
+        }
+
+    .wrapper-category {
+        border: 1px solid grey;
+        text-transform: uppercase;
+        margin-top: 20px;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
+        transition: 0.7s; /*Скорость перехода состояния элемента*/
+        animation: show 1s 1; /* Указываем название анимации, её время и количество повторов*/
+        animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+        animation-delay: 0.5s; /* Задержка перед началом */
+    }
+}
+
+@media (min-width: 496px) {
+    .wrapper-category .container {
+        border: 2px solid grey;
+        padding-top: 5px;
+        padding-left: 10px;
+        background: rgba(0, 0, 0, 0.5);
+        margin-top: 20px;
+    }
+
+    .wrapper-category {
+        overflow: hidden;
+        max-width: 1000px;
+        margin: 0 auto;
+        opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
+        transition: 0.7s; /*Скорость перехода состояния элемента*/
+        animation: show 1s 1; /* Указываем название анимации, её время и количество повторов*/
+        animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+        animation-delay: 0.5s; /* Задержка перед началом */
+    }
+
+    .categories a {
+        font-family: 'russoone-regular';
+        text-transform: uppercase;
+        display: inline-block;
+        text-align: center;
+        padding: 10px;
+        color: white;
+    }
+    
+    .categories a:hover,
+    .wrapper a:hover,
+    .guide-block a:hover {
+        text-decoration: none;
+        color: white;
+        transition-duration: 1s;
+    }
+}
+
+/* категории - конец */
+/* материал - начало */
+
+.wrapper {
+    overflow: hidden;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 0.7s; /*Скорость перехода состояния элемента*/
+    animation: show 1s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 0.5s; /* Задержка перед началом */
+}
+
+.wrapper div {
+    padding: 10px;
+}
+
+#one {
+    border: 1px solid grey;
+    margin-top: 30px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+#one:nth-child(odd) {
+    float: left;
+    width: 48%;
+    margin-right: 30px;
+}
+
+#one:nth-child(even) {
+    overflow: hidden;
+}
+
+.wrapper p {
+    text-align: left;
+    padding-top: 10px;
+    color: #dfe0de;
+}
+
+.wrapper h3 {
+    text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1125px) {
+    .wrapper {
+        max-width: 760px;
+    }
+
+    #one:nth-child(odd) {
+        float: left;
+        width: 47%;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    #one:nth-child(odd) {
+        float: none;
+        margin-right: 0;
+        width: auto;
+    }
+}
+
+/* пока отдельной статьи*/
+
+.guide-block {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 0.7s; /*Скорость перехода состояния элемента*/
+    animation: show 1s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 0.5s; /* Задержка перед началом */
+}
+
+.flex-container {
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    flex-wrap: nowrap;
+}
+
+.categoryInfo {
+    width: 100%;
+    text-align: left;
+}
+
+.timeGuide {
+    text-align: right;
+    width: 300px;
+}
+
+.DescInfo {
+    width: 350px;
+    text-align: center;
+}
+
+.nameInfo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .fullinfo, .flex-bottom {
+        display: flex;
+        flex-wrap: nowrap;
+       /* background: rgba(0, 0, 0, 0.5);*/
+    }
+
+    .flex-container {
+        display: flex;
+       /* background: rgba(0, 0, 0, 0.5);*/
+    }
+}
+
+@media (max-width: 767px) {
+    .flex-container:nth-child(2), .fullinfo, .flex-bottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flex-container:nth-child(1) {
+        display: flex;
+    }
+
+    .flex-container > div:nth-child(1) {
+        width: 100%;
+    }
+}
+
+.flex-bottom .bottom > div:nth-child(1) {
+    float: left
+}
+
+.flex-bottom .bottom > div:nth-child(2) {
+    text-align: right;
+}
+
+.flex-container > div,
+.fullinfo > div,
+.flex-bottom > div {
+    margin: 5px;
+    font-size: 17px;
+}
+
+.flex-bottom > div:nth-child(1) {
+    width: 100%;
+}
+
+.fullinfo {
+    border: 1px solid grey;
+    padding: 30px;
+    /*background: rgba(0, 0, 0, 0.5);*/
+}
+
+.fullinfo > div {
+    width: 100%;
+}
+
+@media (max-width: 400px) {
+    .categoryInfo h5,
+    .timeGuide h5 {
+        font-size: 10px
+    }
+
+    .flex-bottom .bottom > div h5 {
+        font-size: 10px
+    }
+}
+
+@media (max-width: 768px) {
+    .fullinfo > div,
+    .fullinfo h4 {
+        font-size: 15px;
+    }
+
+    .author h1 {
+        font-size: 20px;
+    }
+}
+
+.flex-container h4, h5 {
+    margin: 5px;
+    text-align: left;
+}
+
+.fullinfo img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* материал - конец */
+/* админка - начало */
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'russoone-regular';
+}
+
+.topnav a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.adminbutton {
+    padding: 10px; 
+    margin: 20px auto;
+    text-transform: uppercase;
+    font-family: 'russoone-regular';
+    border: 2px solid black;
+    text-align: center;
+    max-width: 230px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    margin: 30px auto;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+table th {
+    text-align: left;
+    padding: 10px 20px;
+    color: black;
+    text-transform: uppercase;
+}
+
+input[type=text], select, input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.admineditwindow {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.admineditwindow label {
+   /* color: white;*/
+    text-transform: uppercase;
+    padding: 20px 10px;
+}

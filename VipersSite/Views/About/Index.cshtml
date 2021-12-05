@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Abo>
+
+@{
+    ViewBag.Title = "О нас — Королевская кобра";
+}
+
+<div class="row text-center header animate-in" data-anim-type="fade-in-up">
+    <div class="head-title col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h3>О нашем магазине</h3>
+    </div>
+</div>
+
+<div class="guide-block">
+    <div class="flex-newsbody" >
+        <h4>
+            @foreach (var abo in Model)
+            {
+                @Html.Raw(@abo.Description)
+            }
+        </h4>
+    </div>
+</div>

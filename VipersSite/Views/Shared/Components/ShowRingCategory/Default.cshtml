@@ -1,0 +1,11 @@
+﻿@model IEnumerable<RingCategory>
+
+<div>
+    <a asp-controller="Rings" asp-action="Index">Все кольца</a>
+    @foreach (var category in Model)
+    {
+        <a href="Rings?category=@category.Name">
+            @Html.Raw(category.Name)
+        </a>
+    }
+</div>

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Ring>
+
+@{
+     ViewBag.Title = "Админка — Создать или изменить кольцо";
+}
+
+@await Component.InvokeAsync("AdminPanel")
+
+<div class="adminbutton">
+    <a asp-controller="Panel" asp-action="EditRing">Создать кольцо</a>
+</div>
+
+<div class="row text-center header animate-in" data-anim-type="fade-in-up">
+    <h3 style="margin-top: 20px">Кольца</h3>
+</div>
+
+<div style="overflow-x:auto;">
+    <table>
+        @foreach (var ring in Model)
+        {
+        <tr>
+            <th>@ring.RingCategory</th>
+            <th>@ring.Name</th>
+            <th><a asp-controller="Panel" asp-action="EditRing" asp-route-id="@ring.Id">Изменить</a></th>
+            <th><a asp-controller="Panel" asp-action="RemoveRing" asp-route-id="@ring.Id">Удалить</a></th>
+        </tr>
+        }
+    </table>
+</div>

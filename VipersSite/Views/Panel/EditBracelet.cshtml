@@ -1,0 +1,86 @@
+﻿@model Bracelet
+
+@{
+    ViewBag.Title = "Админка — Создать или изменить браслет";
+}
+
+@await Component.InvokeAsync("AdminPanel")
+
+<div class="row text-center header animate-in" data-anim-type="fade-in-up">
+    <h3 style="margin-top: 20px">Создание или изменение браслета</h3>
+</div>
+
+<link href="~/lib/Trumbowyg-master/dist/ui/trumbowyg.min.css" rel="stylesheet" />
+<div class="admineditwindow">
+    <form asp-controller="Panel" asp-action="EditBracelet" method="post">
+        <input asp-for="Id" type="hidden" />
+        <div>
+            <label>Артикул</label>
+            <input asp-for="VendorCode" />
+        </div>
+        <div>
+            <label>Название</label>
+            <input asp-for="Name" />
+        </div>
+        <div>
+            <label>Цена</label>
+            <input asp-for="Price" />
+        </div>
+        <div>
+            <label>Наличие</label>
+            <select asp-for="Availability">
+                <option value="В наличии">В наличии</option>
+                <option value="Нет в наличии">Нет в наличии</option>
+            </select>
+        </div>
+        <div>
+            <label asp-for="BraceletCategory">Категория</label>
+            <select asp-for="BraceletCategory" asp-items="ViewBag.Bracelets"></select>
+        </div>
+        <div>
+            <label>Описание</label>
+            <textarea id="editor" asp-for="Info"></textarea>
+        </div>
+        <input type="submit" value="Отправить"/>
+    </form>
+</div>
+
+@section scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="~/lib/Trumbowyg-master/dist/trumbowyg.min.js"></script>
+    <script src="~/lib/Trumbowyg-master/dist/plugins/upload/trumbowyg.upload.min.js"></script>
+    <script>
+        $('#editor')
+            .trumbowyg({
+                btnsDef: {
+                    image: {
+                        dropdown: ['insertImage', 'upload'],
+                        ico: 'insertImage'
+                    }
+                },
+                btns: [
+                    ['viewHTML'],
+                    ['formatting'],
+                    ['strong', 'em', 'del'],
+                    ['superscript', 'subscript'],
+                    ['link'],
+                    ['image'], // Our fresh created dropdown
+                    ['justifyLeft', 'justifyCenter', 'justifyRight', 'justifyFull'],
+                    ['unorderedList', 'orderedList'],
+                    ['horizontalRule'],
+                    ['removeformat'],
+                    ['fullscreen']
+                ],
+                plugins: {
+                    upload: {
+                        serverPath: 'https://api.imgur.com/3/image',
+                        fileFieldName: 'image',
+                        headers: {
+                            'Authorization': 'Client-ID 65acbf92ff8009e'
+                        },
+                        urlPropertyName: 'data.link'
+                    }
+                }
+            });
+    </script>
+}

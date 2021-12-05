@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Abo>
+
+
+@{
+    ViewBag.Title = "Админка — Раздел о магазине";
+}
+
+@await Component.InvokeAsync("AdminPanel")
+
+<div class="row text-center header animate-in" data-anim-type="fade-in-up">
+    <h3 style="margin-top: 20px">Раздел "О нас"</h3>
+</div>
+
+<table>
+    @foreach (var abo in Model)
+    {
+        <tr>
+            <td>
+                <a asp-controller="Panel" asp-action="AboutEdit" asp-route-id="@abo.Id">
+                    Редактировать
+                </a>
+            </td>
+        </tr>
+    }
+</table>

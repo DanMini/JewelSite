@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Earring>
+
+@{
+    ViewBag.Title = "Админка — Создать или изменить серьгу";
+}
+
+@await Component.InvokeAsync("AdminPanel")
+
+<div class="adminbutton">
+    <a asp-controller="Panel" asp-action="EditEarring">Создать серьгу</a>
+</div>
+
+<div class="row text-center header animate-in" data-anim-type="fade-in-up">
+    <h3 style="margin-top: 20px">Серьги</h3>
+</div>
+
+<div style="overflow-x:auto;">
+    <table>
+        @foreach (var earring in Model)
+        {
+        <tr>
+            <th>@earring.EarringCategory</th>
+            <th>@earring.Name</th>
+            <th><a asp-controller="Panel" asp-action="EditEarring" asp-route-id="@earring.Id">Изменить</a></th>
+            <th><a asp-controller="Panel" asp-action="RemoveEarring" asp-route-id="@earring.Id">Удалить</a></th>
+        </tr>
+        }
+    </table>
+</div>

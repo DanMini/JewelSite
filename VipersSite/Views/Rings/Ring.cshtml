@@ -1,0 +1,27 @@
+﻿@model Ring
+
+@{
+        ViewBag.Title = @Model.Name + " — Ювелирный каталог";       
+}
+
+<div class="guide-block" style="margin-top: 150px;">
+    <div class="flex-container">
+        <div class="categoryInfo">
+            <p>
+                <a class="menu" id="newshover" asp-controller="Rings" asp-action="Index">Все кольца</a> — <a href="http://ss-team.ru/Rings?category=@Model.RingCategory">Кольца категории «@Model.RingCategory»</a>
+            </p>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="DescInfo">
+            <p>Артикул: @Model.VendorCode</p>
+            <p>Цена: @Model.Price рублей</p>
+            <p>@Model.Availability</p>
+        </div>
+        <div class="nameInfo"><h1>@Model.Name</h1></div>
+    </div>
+    <div class="fullinfo">
+        <div>@Html.Raw(Model.Info)</div>
+    </div>
+</div>
+

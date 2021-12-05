@@ -1,0 +1,25 @@
+﻿@model LoginViewModel
+
+@{ 
+
+}
+
+    <div class="row text-center header animate-in" data-anim-type="fade-in-up">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h3 style="font-weight:600">ВОЙТИ</h3>
+        </div>
+    </div>
+
+<div class="admineditwindow">
+    <form asp-controller="Auth" asp-action="Login" method="post">
+        <div>
+            <label>логин</label>
+            <input asp-for="UserName" />
+        </div>
+        <div>
+            <label>пароль</label>
+            <input asp-for="Password" />
+        </div>
+        <input type="submit"  value="Войти"/>
+    </form>
+</div>

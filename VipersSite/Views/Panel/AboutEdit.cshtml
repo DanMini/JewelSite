@@ -1,0 +1,73 @@
+﻿@model Abo
+
+@{
+
+}
+
+@{
+    ViewBag.Title = "Админка — Раздел о магазине";
+}
+
+@await Component.InvokeAsync("AdminPanel")
+
+<div class="row text-center header animate-in" data-anim-type="fade-in-up">
+    <h3 style="margin-top: 20px">Раздел "О нас"</h3>
+</div>
+
+<link href="~/lib/Trumbowyg-master/dist/ui/trumbowyg.min.css" rel="stylesheet" />
+<div class="admineditwindow">
+    <form method="post" asp-controller="Panel" asp-action="AboutEdit">
+        <div>
+            <textarea id="editor" asp-for="Description"></textarea>
+        </div>
+        <input type="submit" value="Обновить" />
+
+    </form>
+</div>
+
+@section scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="~/lib/Trumbowyg-master/dist/trumbowyg.min.js"></script>
+    <script src="~/lib/Trumbowyg-master/dist/plugins/upload/trumbowyg.upload.min.js"></script>
+    <script src="~/js/trumbowyg.noembed.js"></script>
+    <script>
+        $('#editor')
+            .trumbowyg({
+                btnsDef: {
+                    // Create a new dropdown
+                    image: {
+                        dropdown: ['insertImage', 'upload'],
+                        ico: 'insertImage'
+                    }
+                },
+                // Redefine the button pane
+                btns: [
+                    ['viewHTML'],
+                    ['formatting'],
+                    ['strong', 'em', 'del'],
+                    ['superscript', 'subscript'],
+                    ['link'],
+                    ['image'], // Our fresh created dropdown
+                    ['justifyLeft', 'justifyCenter', 'justifyRight', 'justifyFull'],
+                    ['unorderedList', 'orderedList'],
+                    ['horizontalRule'],
+                    ['removeformat'],
+                    ['fullscreen']
+                ],
+                plugins: {
+                    // Add imagur parameters to upload plugin for demo purposes
+                    upload: {
+                        serverPath: 'https://api.imgur.com/3/image',
+                        fileFieldName: 'image',
+                        headers: {
+                            'Authorization': 'Client-ID a6bc5a2e906d601'
+                        },
+                        urlPropertyName: 'data.link'
+                    }
+                }
+            });
+    </script>
+    <script>
+        $('#spoilerEditor').trumbowyg();
+    </script>
+}

@@ -1,0 +1,73 @@
+﻿@model Feedback
+
+@{
+    ViewBag.Title = "Отправить заявку — Ювелирный каталог";
+}
+
+<link href="~/lib/Trumbowyg-master/dist/ui/trumbowyg.min.css" rel="stylesheet" />
+<div class="admineditwindow">
+    <form asp-controller="Feedbacks" asp-action="EditFeedback" method="post" style="margin-top:200px">
+        <input asp-for="Id" type="hidden" />
+        <div style="visibility:hidden">
+            <label>Дата создания</label>
+            <input asp-for="Created" />
+        </div>
+        <div>
+            <label>Ваше имя</label>
+            <input asp-for="Name" required placeholder="Как к вам обращаться?"/>
+        </div>
+        <div>
+            <label>Ваш телефон для связи</label>
+            <input asp-for="Telephone" required placeholder="Наберите номер телефона"/>
+        </div>
+        <div>
+            <label>Время, в которое вам лучше перезвонить</label>
+            <input asp-for="Time" placeholder="Если у вас есть предпочтения по времени - напишите это здесь"/>
+        </div>
+        <div>
+            <label>Ваше обращение</label>
+            <textarea id="editor" asp-for="Comment"></textarea>
+        </div>
+        <input type="submit" value="Отправить" />
+    </form>
+</div>
+
+@section scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="~/lib/Trumbowyg-master/dist/trumbowyg.min.js"></script>
+    <script src="~/lib/Trumbowyg-master/dist/plugins/upload/trumbowyg.upload.min.js"></script>
+    <script>
+        $('#editor')
+            .trumbowyg({
+                btnsDef: {
+                    image: {
+                        dropdown: ['insertImage', 'upload'],
+                        ico: 'insertImage'
+                    }
+                },
+                btns: [
+                    ['viewHTML'],
+                    ['formatting'],
+                    ['strong', 'em', 'del'],
+                    ['superscript', 'subscript'],
+                    ['link'],
+                    ['image'], // Our fresh created dropdown
+                    ['justifyLeft', 'justifyCenter', 'justifyRight', 'justifyFull'],
+                    ['unorderedList', 'orderedList'],
+                    ['horizontalRule'],
+                    ['removeformat'],
+                    ['fullscreen']
+                ],
+                plugins: {
+                    upload: {
+                        serverPath: 'https://api.imgur.com/3/image',
+                        fileFieldName: 'image',
+                        headers: {
+                            'Authorization': 'Client-ID 65acbf92ff8009e'
+                        },
+                        urlPropertyName: 'data.link'
+                    }
+                }
+            });
+    </script>
+}

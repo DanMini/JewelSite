@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Chain>
+
+@{
+    ViewBag.Title = "Админка — Создать или изменить цепь";
+}
+
+@await Component.InvokeAsync("AdminPanel")
+
+<div class="adminbutton">
+    <a asp-controller="Panel" asp-action="EditChain">Создать цепь</a>
+</div>
+
+<div class="row text-center header animate-in" data-anim-type="fade-in-up">
+    <h3 style="margin-top: 20px">Цепи</h3>
+</div>
+
+<div style="overflow-x:auto;">
+    <table>
+        @foreach (var сhain in Model)
+        {
+        <tr>
+            <th>@сhain.ChainCategory</th>
+            <th>@сhain.Name</th>
+            <th><a asp-controller="Panel" asp-action="EditChain" asp-route-id="@сhain.Id">Изменить</a></th>
+            <th><a asp-controller="Panel" asp-action="RemoveChain" asp-route-id="@сhain.Id">Удалить</a></th>
+        </tr>
+        }
+    </table>
+</div>

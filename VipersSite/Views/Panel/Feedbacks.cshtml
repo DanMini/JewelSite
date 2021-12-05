@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Feedback>
+
+@{
+    ViewBag.Title = "Админка — Создать или изменить серьгу";
+}
+
+@await Component.InvokeAsync("AdminPanel")
+
+<div class="row text-center header animate-in" data-anim-type="fade-in-up">
+    <h3 style="margin-top: 20px">Заявки на обратные звонки</h3> 
+</div>
+
+<div style="overflow-x:auto;">
+    <table>
+        @foreach (var feedback in Model)
+        {
+            <tr>
+                @{
+                    string status = feedback.Status;
+                    string color = "red";
+
+                    if (status == "Новая заявка")
+                    {
+                        color = "green";
+                    }
+                    else if (status == "Обработана")
+                    {
+                        color = "gray";
+                    }
+                }
+                <th>@feedback.Created.ToString("dd MMMM yyyy HH:mm")</th>
+                <th style="color:@color">@feedback.Status</th>
+                <th>@feedback.Name</th>
+                <th><a asp-controller="Panel" asp-action="EditFeedback" asp-route-id="@feedback.Id">Изменить</a></th>
+                <th><a asp-controller="Panel" asp-action="RemoveFeedback" asp-route-id="@feedback.Id">Удалить</a></th>
+            </tr>
+        }
+    </table>
+</div>

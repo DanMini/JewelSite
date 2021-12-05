@@ -1,0 +1,22 @@
+﻿@model ChainCategory
+
+@{
+    ViewBag.Title = "Админка — Создать или изменить категорию цепи";
+}
+
+@await Component.InvokeAsync("AdminPanel")
+
+<div class="row text-center header animate-in" data-anim-type="fade-in-up">
+    <h3 style="margin-top: 20px">Категории цепей</h3>
+</div>
+
+<div class="admineditwindow">
+    <form asp-controller="Panel" asp-action="EditChainCategory" method="post">
+        <input asp-for="Id" type="hidden" />
+        <div>
+            <label>Название</label>
+            <input asp-for="Name" />
+        </div>
+        <input type="submit" value="Отправить" />
+    </form>
+</div>
